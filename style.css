@@ -1,0 +1,142 @@
+/* Styles généraux pour la page de partage de fichiers */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="file"], input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    margin-right: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.rename-btn {
+    background-color: #28a745;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.rename-btn:hover {
+    background-color: #218838;
+}
+
+.rename-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rename-form input[type="text"] {
+    flex: 1;
+    margin-right: 0;
+}
+
+.message-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.message-container .message {
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #28a745;
+}
+
+.message.error {
+    background-color: #dc3545;
+}
