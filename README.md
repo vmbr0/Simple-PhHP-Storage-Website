@@ -1,4 +1,4 @@
-# Simple-PhHP-Storage-Website
+# Simple-PHP-Storage-Website
 A very simple PHP website for store data
 
 Create the Folder upload and the folder share
